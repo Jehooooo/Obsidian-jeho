@@ -1,0 +1,22 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Dashboard",
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "showFrontmatter": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "source",
+  "showIndentGuide": true,
+  "tabSize": 4,
+  "vimMode": false,
+  "livePreview": true,
+  "autoConvertHtml": true,
+  "promptDelete": true,
+  "trashOption": "system"
+}

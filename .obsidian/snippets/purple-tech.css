@@ -1,0 +1,74 @@
+/* Jeho's Second Brain — Purple Tech Theme Enhancements */
+/* This snippet adds subtle purple accents to the dark theme */
+
+body {
+    --interactive-accent: #9b59b6;
+    --interactive-accent-hover: #b366ff;
+    --text-accent: #b366ff;
+    --text-accent-hover: #c88fff;
+}
+
+/* Purple accent on active file in sidebar */
+.nav-file-title.is-active {
+    color: #b366ff;
+    background-color: rgba(155, 89, 182, 0.1);
+}
+
+/* Purple borders on focused elements */
+.cm-focused .cm-cursor {
+    border-left-color: #b366ff;
+}
+
+/* Subtle purple glow on checkboxes when checked */
+input[type="checkbox"]:checked {
+    accent-color: #9b59b6;
+}
+
+/* Heading colors */
+.cm-header-1, .markdown-rendered h1 {
+    color: #b366ff;
+}
+
+.cm-header-2, .markdown-rendered h2 {
+    color: #c88fff;
+}
+
+/* Tag styling */
+.tag {
+    background-color: rgba(155, 89, 182, 0.15);
+    color: #b366ff;
+    border: 1px solid rgba(155, 89, 182, 0.3);
+}
+
+/* Internal link styling */
+.internal-link {
+    color: #b366ff;
+}
+
+.internal-link:hover {
+    color: #c88fff;
+}
+
+/* Blockquote accent */
+.markdown-rendered blockquote {
+    border-left-color: #9b59b6;
+}
+
+/* Code block subtle styling */
+.markdown-rendered pre {
+    border: 1px solid rgba(155, 89, 182, 0.15);
+}
+
+/* Table header accent */
+.markdown-rendered th {
+    border-bottom: 2px solid rgba(155, 89, 182, 0.3);
+}
+
+/* Scrollbar accent */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 89, 182, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(155, 89, 182, 0.5);
+}
